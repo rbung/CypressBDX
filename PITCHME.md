@@ -2,11 +2,8 @@
 
 ---
 
-### Flux Design
-
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
+Les tests E2E avant ...
+🦖
 
 ---
 
