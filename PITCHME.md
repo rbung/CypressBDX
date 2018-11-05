@@ -1,6 +1,4 @@
-# Flux
-
-An application architecture for React
+# Accélérer vos tests E2E avec Cypress
 
 ---
 
