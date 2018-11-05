@@ -2,8 +2,7 @@
 
 ---
 
-Les tests E2E avant ...\
-🦖
+🦖 Les tests E2E avant ...
 
 ---
 
