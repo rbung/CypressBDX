@@ -1,4 +1,4 @@
-# Cypress Demo for Devfest Nantes 2018
+# Cypress Demo for BDX.IO 2018
 
 ## Pre-requisites
 
