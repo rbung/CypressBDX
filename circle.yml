@@ -9,3 +9,6 @@ workflows:
           spec: 'cypress/integration/devfest/**'
           start: 'npm start'
           wait-on: 'http://localhost:4100'
+          parallel: true
+          parallelism: 3
+          group: '3 machines'
