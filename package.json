@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "cross-env": "^5.1.4",
-    "cypress": "^3.1.0",
+    "cypress": "^3.1.5",
     "cypress-dark": "^1.5.2",
     "react-scripts": "1.1.1"
   },
@@ -30,6 +30,7 @@
     "test": "cross-env PORT=4100 react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "cypress:open": "cypress open",
-    "test:all": "cypress run -s 'cypress/integration/devfest/**'"
+    "test:all": "cypress run -s 'cypress/integration/devfest/**'",
+    "test:ci": "cypress run --record --key 45cb2bb6-2a60-4752-842d-f804f3747115 -s 'cypress/integration/devfest/**'"
   }
 }
