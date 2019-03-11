@@ -19,5 +19,3 @@
 ### Cypress in headless mode
 
 `npm run test:all`
-
-Test
