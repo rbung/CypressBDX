@@ -12,7 +12,37 @@ workflows:
           start: 'npm start'
           wait-on: 'http://localhost:4100'
           parallel: true
+          parallelism: 1
+          group: '1 machine'
+          requires:
+            - cypress/install
+      - cypress/run:
+          record: true
+          spec: 'cypress/integration/devfest/**'
+          start: 'npm start'
+          wait-on: 'http://localhost:4100'
+          parallel: true
+          parallelism: 2
+          group: '2 machines'
+          requires:
+            - cypress/install
+      - cypress/run:
+          record: true
+          spec: 'cypress/integration/devfest/**'
+          start: 'npm start'
+          wait-on: 'http://localhost:4100'
+          parallel: true
           parallelism: 3
           group: '3 machines'
+          requires:
+            - cypress/install
+      - cypress/run:
+          record: true
+          spec: 'cypress/integration/devfest/**'
+          start: 'npm start'
+          wait-on: 'http://localhost:4100'
+          parallel: true
+          parallelism: 4
+          group: '4 machines'
           requires:
             - cypress/install
